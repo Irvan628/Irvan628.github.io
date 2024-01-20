@@ -1,163 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Irvan Nurfauzan Saputra</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-
-    <link rel="stylesheet" href="style.css" />
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-    <title>portfolio Irvan Nurfuzan Saputra</title>
-
-    <!-- <script>
-      alert("HALO SELAMAT DATANG")
-    </script> -->
-
-  </head>
-  <body id="Home">
-    
-
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-    
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white border-body">
       <div class="container">
+          <a class="navbar-brand text-white" href="#">
+              Irvan Nurfauzan Saputra
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white" href="#project">Project</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Internship</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <!-- end Navbar -->
 
-        <!-- <img src="img/profile.jpeg" alt="profile" width="200" class="rounded-circle img-thumbnail" /> -->
-        <h1 class="display" data-aos="fade-up"  data-aos-delay="1000"style="color: white;">WELCOME TO XII MIPA 3</h1>
-        <p class="lead" data-aos="fade-up" data-aos-delay="1500"style="color: white;" >XATHELLITE PEOPLE</p>
-      <!-- </div>
-      <span class="scroll">
-        <h4>Scroll Down
+  <!-- Section 1 -->
+  <section id="about" class="bg-dark text-white vh-100 d-flex ">
+    <div class="container text-center">
+      <img src="/img/profile.jpg" alt="Irvan" width="200" class="rounded-circle img-thumbnail mt-4">
+      <h1>Irvan Nurfauzan Saputra</h1>
+      <p>Programmer | Student at Pembangunan Jaya University</p>
+      <p>4th semester student at Pembangunan Jaya University, Informatics Study Program. Interested in working in the field of embedded systems or IoT. In lectures I have learned about intelligent systems, computer architecture and organization and cyber security</p>
+    </div>
+  </section>
+  <!-- End Section 1 -->
 
+<!-- Section 2 -->
+<section id="project" class="bg-light text-dark mt-4">
+  <div class="container text-center">
+    <h1>Project</h1>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
-        </h4>
-        
-        <a class="scroll" href="#about" ><i class="bi bi-arrow-down" style="size: 100px; color: rgb(0, 0, 0);"></i></a> 
-      </span> -->
-		
-
-      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,128L26.7,138.7C53.3,149,107,171,160,186.7C213.3,203,267,213,320,197.3C373.3,181,427,139,480,149.3C533.3,160,587,224,640,256C693.3,288,747,288,800,272C853.3,256,907,224,960,202.7C1013.3,181,1067,171,1120,181.3C1173.3,192,1227,224,1280,229.3C1333.3,235,1387,213,1413,202.7L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
-        ></path>
-      </svg> -->
-    </section>
-    <!-- selesai -->
-
-    <!-- about -->
-    <section id="about" >
-      <div class="container">
-        <div class="row text-center">
-          <div class="col" data-aos="fade">
-            <h2  >Tentang Kami</h2>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5>MATICLANE PORTAL: "Automatic School Safezone Portal"</h5>
+            <p class="card-text">Building a prototype IoT-based automatic doorstop system for School Safe Zones. I did this project myself by self-taught about IoT systems.</p>
           </div>
         </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <p  data-aos="fade">
-            Website ini dibuat untuk digunakan sebagai kenang-kenangan bagi seluruh alumni XII MIPA 3.
-          </p>
-          <p  data-aos="fade">
-            COMING SOON
-          </p>
-            <!-- <div class="col-md-4" data-aos="fade-up" style="text-align: justify;">
-                <p >Nama saya Irvan Nurfauzan Saputra, lahir di Tarakan, 17 Januari 2004. Saya anak ke-2 dari dua bersaudara. Saya bersekolah di SMAN 1 Tarakan, Provinsi Kalimantan Utara</p>
-            </div>
-            <div class="col-md-4" data-aos="fade " style="text-align: justify;">
-                <p>Selama saya bersekolah di SMAN 1 Tarakan, saya mengikuti ekstrakulikuler Karya Ilmiah Remaja (KIR), dan aktif dalam berbagai lomba yang diselenggarakan baik oleh kementrian maupun non kementrian. Dalam 3 tahun masa sekolah saya berhasil memperoleh 7 Penghargaan diantaranya 3 nasional dan 4 Internasional</p>
-        </div> -->
       </div>
-    </section>
-    <!-- selesai -->
 
-  
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5>IoT Based Heart Disease Detection</h5>
+            <p class="card-text">Building an IoT system using Nodemcu as the main microcontroller and connecting it with the Blynk application for system monitoring</p>
+          </div>
+        </div>
+      </div>
 
-    <!-- contact -->
-    <section id="contact">
-        <link rel="stylesheet" href="">
-    </section>
-    <!-- selesai -->
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5>Detection of Cardiovascular Disease Based on Artificial Intelligence using the KNN Method</h5>
+            <p class="card-text">Building a system based on Artificial Intelligence to detect Cardiovascular disease. Can be accessed at: https://irvan1701-knn-jantung-main-xecqx0.streamlit.app/</p>
+          </div>
+        </div>
+      </div>
 
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5>Desktop App Based Laboratory Inventory Management System</h5>
+            <p class="card-text">This is a project assignment in the Object Oriented Programming course and building an Inventory Management system.</p>
+          </div>
+        </div>
+      </div>
 
-    <section >
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5>Your Tumor Disease Detection System with Image Processing Using the CNN Method</h5>
+            <p class="card-text">In this project, I carried out several stages starting from dataset search, data normalization, data oversampling, machine learning model creation and evaluation using a confusion matrix.</p>
+          </div>
+        </div>
+      </div>
 
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </div>
+  </div>
+</section>
+<!-- End Section 2 -->
 
 
+  <!-- Section 3 -->
+  <section id="internship" class="bg-dark text-white vh-100">
+    <div class="text-center">
+      <h1>Internship</h1>
+
+    </div>
 
 
-
-
-
-
-
-    <!-- footer -->
-    <section id="footer">
-    <p class="text-light text-center">Made With <i class="bi bi-heart-fill"> </i> <a href="https://www.instagram.com/irvan_1701/" class="text-light">Irvan</a></p>
   </section>
-    <!-- <section id="footer">
-      <p class="text-light text-center">Made With  <i class="bi bi-heart-fill"> <a href="#about" class="text-light">Irvan</a>
-    </section> -->
-    <!-- selesai -->
+  <!-- End Section 3 -->
 
+  <!-- Section 4 -->
+  <!-- End Section 4 -->
 
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <!-- plugin aos -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-    AOS.init();
-    </script>
-    <!-- selesai -->
-
-
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
 </html>
