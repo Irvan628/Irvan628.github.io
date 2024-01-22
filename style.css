@@ -1,3 +1,22 @@
+@media (max-width: 768px) {
+    .navbar {
+      display: none;
+    }
+  
+    .navbar-toggler {
+      display: block;
+    }
+  }
+@media (min-width: 769px) {
+    .navbar {
+      display: block;
+    }
+  
+    .navbar-toggler {
+      display: none;
+    }
+  }
+
 .card:hover{
     transform: scale(1.05);
  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
@@ -9,8 +28,12 @@
 }
 
 #project {
-    margin-top: 20px;
+    margin-top: 20px !important;
 }
+
+#internship .container {
+    margin-top: 25px; /* Sesuaikan nilai margin top sesuai kebutuhan Anda */
+  }
 
 
 
