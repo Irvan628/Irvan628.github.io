@@ -32,8 +32,15 @@
 }
 
 #internship .container {
-    margin-top: 25px; /* Sesuaikan nilai margin top sesuai kebutuhan Anda */
+    margin-top: 25px;
   }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+
 
 
 
